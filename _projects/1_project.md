@@ -15,7 +15,7 @@ This project implements a scalable, adaptable and modular framework in Python th
 For an overview of the Jupyter Notebooks, please see the <a href="https://github.com/dbaitech/biol-382">project repository</a>. Feel free to download and rerun the notebooks with different numbers and types of neurons as well as different connection weights and view their simulation results.
 
 There are two parts to this project:
-1. A reimplementation of the framework published by <a href='https://doi.org/10.1016/j.neucom.2022.04.115'>Giannari et al.</a> available in `reimplementation.ipynb`.
+1. A reimplementation of the framework published by {% cite GIANNARI2022147 %} available in `reimplementation.ipynb`.
 2. An extension of this framework to include <b>synaptic scaling</b>. This implements the stabilization of neuronal activity that the mammalian nervous system is known to employ. This is available in `synaptic_scaling_extension.ipynb`.
 
 For an in depth analysis and explanation, please see the <a href='https://github.com/dbaitech/academic-writing/blob/main/BIOL_382_Final_Report.pdf'>project report</a>.

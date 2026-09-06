@@ -2,7 +2,7 @@
 layout: page
 title: Projects
 permalink: /projects/
-description: A growing collection of your cool projects.
+description: Some fun projects centered around topics ranging from neural networks to game theory to cryptography.
 nav: true
 nav_order: 3
 display_categories: [work, fun]

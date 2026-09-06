@@ -23,11 +23,36 @@ You can also implement the DNA analysis toolkit in Python through these <a href=
     </div>
 </div>
 
+**Topics covered**
+
+* **Introduction to Bioinformatics**
+
+  * DNA as data
+  * Genomic signatures
+* **Analyzing DNA**
+
+  * GC content
+  * K-mer counts
+  * Combinatorics of k-mers
+* **Sequence Alignment**
+
+  * Hamming distance
+  * Mutations: substitutions and indels
+  * Optimal alignment
+  * Scoring schemes
+* **Final Project: DNA Detective**
+
+  * Identifying a mystery DNA sequence
+  * Comparing genomic signatures
+  * Implementing DNA analysis in Python
+
+
 Full repository available at: 
 
-{% if site.data.repositories.github_repos %}
+{% assign repo = site.data.repositories.github_repos[4] %}
+{% if repo %}
 <div class="repositories d-flex flex-wrap flex-md-row flex-column justify-content-between align-items-center">
-  {% include repository/repo.liquid repository=site.data.repositories.github_repos[4] %}
+  {% include repository/repo.liquid repository=repo %}
 </div>
 {% else %}
   <a href="https://github.com/dbaitech/cs_academy_bioinformatics">CS Academy Bioinformatics</a>.

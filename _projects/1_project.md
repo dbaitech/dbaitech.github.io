@@ -1,6 +1,6 @@
 ---
 layout: page
-title: A Scalable Framework for HH Neuronal Networks
+title: A Scalable Framework for Neuronal Networks
 description: Enables the simulation of customizable neural networks.
 img: assets/img/3_neurons_diagram.png
 importance: 1
@@ -8,15 +8,15 @@ category: Computational Biology
 related_publications: true
 ---
 
-Simulating biologically accurate neural networks is essential for neuroscientific research. The Hodgkin-Huxley model is an incredibly meaningful tool for modelling the action potential of a single neuron. However, investigation of mammalian brain function requires a more complex version of this modelling framework.
+Simulating biologically accurate neuronal networks is essential for understanding complex brain functions and advancing discoveries in neuroscience. The Hodgkin-Huxley model is an incredibly meaningful tool for modelling the action potential of a single neuron. However, investigation of mammalian brain function requires a more complex version of this modelling framework.
 
-This project implements a scalable, adaptable and modular framework in Python that accurately simulates the activity of neurons in networks with distinct firing patterns and different types of coupling.
+This project implements a scalable, adaptable and modular framework in Python that can be used to accurately simulate the activity of neurons in networks with distinct firing patterns and different types of coupling.
 
 For an overview of the Jupyter Notebooks, please see the <a href="https://github.com/dbaitech/biol-382">project repository</a>. Feel free to download and rerun the notebooks with different numbers and types of neurons as well as different connection weights and view their simulation results.
 
 There are two parts to this project:
 1. A reimplementation of the framework published by <a href='https://doi.org/10.1016/j.neucom.2022.04.115'>Giannari et al.</a> available in `reimplementation.ipynb`.
-2. An extension of this framework that implements the stabilization of neuronal activity via <b>synaptic scaling</b> that the mammalian nervous system is known to employ. This is available in `synaptic_scaling_extension.ipynb`.
+2. An extension of this framework to include <b>synaptic scaling</b>. This implements the stabilization of neuronal activity that the mammalian nervous system is known to employ. This is available in `synaptic_scaling_extension.ipynb`.
 
 For an in depth analysis and explanation, please see the <a href='https://github.com/dbaitech/academic-writing/blob/main/BIOL_382_Final_Report.pdf'>project report</a>.
 
@@ -42,7 +42,7 @@ We have the following network of neurons with only Neuron 1 receiving an input c
 
 <div class="row">
     <div class="col-sm mt-3 mt-md-0">
-        {% include figure.liquid loading="eager" path="assets/img/3_neurons_diagram.png" title="example image" class="img-fluid rounded z-depth-1" style="width: 40%;" %}
+        {% include figure.liquid loading="eager" path="assets/img/3_neurons_diagram.png" title="example image" class="img-fluid rounded z-depth-1 w-50" %}
     </div>
 </div>
 

@@ -5,7 +5,7 @@ permalink: /projects/
 description: Some fun projects centered around topics ranging from neural networks to game theory to cryptography.
 nav: true
 nav_order: 3
-display_categories: [Computational Biology, Cryptography]
+display_categories: [Computational Biology, Cryptography, Web Dev]
 horizontal: false
 ---
 

@@ -8,7 +8,7 @@ category: Computational Biology
 related_publications: false
 ---
 
-I created and taught this project at the <a href="https://web.cs.toronto.edu/news-events/news/tag/CS+Academy">University of Toronto's CS Academy</a>, an annual weeklong research immersion course for high school students hosted by the Department of Computer Science.
+I created and taught this seminar at the <a href="https://web.cs.toronto.edu/news-events/news/tag/CS+Academy">University of Toronto's CS Academy</a>, an annual weeklong research immersion course for high school students hosted by the Department of Computer Science. The focus was learning about and implementing fundamental techniques for DNA analysis.
 
 Feel free to check out the <a href="https://github.com/dbaitech/cs_academy_bioinformatics/tree/main/lessons">lessons</a> I made and learn about how to analyze DNA using <b>genomic signatures</b> and <b>sequence alignment</b>.
 

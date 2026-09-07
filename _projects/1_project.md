@@ -24,7 +24,9 @@ Here are some example simulations:
 
 ### Reimplementation
 
-The resulting simulations from `reimplementation.ipynb` for two different neural motifs: feedforward and feedback excitation. Notice how only Neuron 1 receives an input current and how the type of connection to Neuron 2 can influence both of their activities.
+The resulting simulations are from `reimplementation.ipynb` for two different neural motifs: feedforward and feedback excitation.
+
+Notice how only Neuron 1 receives an input current and how the type of connection to Neuron 2 can influence both of their activities.
 
 The feedforward network only sends the current from Neuron 1 to Neuron 2. However, the feedback network also has a connection back from Neuron 2 to Neuron 1 which causes its prolonged excitation.
 
@@ -46,7 +48,7 @@ We have the following network of neurons with only Neuron 1 receiving an input c
     </div>
 </div>
 
-Without synaptic scaling, the feedback loop causes unrestrained bursting and increasing firing rates.
+Without synaptic scaling, the feedback loop causes unrestrained bursting with increasing firing rates.
 
 <div class="row">
     <div class="col-sm mt-3 mt-md-0">

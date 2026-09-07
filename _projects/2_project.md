@@ -29,9 +29,9 @@ The final project (DNA Detective) is to identify a mystery piece of DNA based on
 
 * **Introduction to Bioinformatics**
   * DNA as data
-  * Genomic signatures
+  * Motivation for analyzing DNA
 
-* **Analyzing DNA**
+* **Genomic Signatures**
   * GC content
   * K-mer counts
   * Combinatorics of k-mers

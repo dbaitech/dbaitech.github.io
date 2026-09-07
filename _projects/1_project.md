@@ -2,7 +2,7 @@
 layout: page
 title: A Scalable Framework for Neural Networks
 description: Enables the simulation of customizable neural networks
-img: assets/img/3_neurons_diagram.png
+img: assets/img/brain.jpg
 importance: 1
 category: Computational Biology
 related_publications: true

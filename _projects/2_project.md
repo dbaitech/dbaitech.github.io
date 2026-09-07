@@ -25,7 +25,7 @@ The final project (DNA Detective) is to identify a mystery piece of DNA based on
     </div>
 </div>
 
-**Topics covered**
+## Topics covered
 
 * **Introduction to Bioinformatics**
   * DNA as data

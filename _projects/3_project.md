@@ -27,5 +27,5 @@ Code and in depth explanation available at:
   {% include repository/repo.liquid repository=repo %}
 </div>
 {% else %}
-  <a href="https://github.com/dbaitech/evolutionary-game-theory">CS Academy Bioinformatics</a>.
+  <a href="https://github.com/dbaitech/evolutionary-game-theory">Evolutionary Game Theory</a>.
 {% endif %}

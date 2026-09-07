@@ -16,7 +16,7 @@ I created Python implementations of several cryptographic algorithms and protoco
 
 - SimplePIR {% cite cryptoeprint:2022/949 %}
 - ElGamal encryption, including its homomorphic properties
-- Private Information Retrieval (PIR) using Secret-key Regev encryption (LWE) and the Kushilevitz–Ostrovsky method, based on *Replication is not needed: single database, computationally-private information retrieval* {% cite 795663.796363 %}
+- Private Information Retrieval (PIR) using Secret-key Regev encryption (LWE) and the Kushilevitz–Ostrovsky method, based on *Replication is not needed: single database, computationally-private information retrieval* {% cite Ostrovsky %}
 
 Code available at: 
 
@@ -26,5 +26,5 @@ Code available at:
   {% include repository/repo.liquid repository=repo %}
 </div>
 {% else %}
-  <a href="https://github.com/dbaitech/Cryptographic-Algorithms">CS Academy Bioinformatics</a>.
+  <a href="https://github.com/dbaitech/Cryptographic-Algorithms">Cryptographic Algorithms</a>.
 {% endif %}

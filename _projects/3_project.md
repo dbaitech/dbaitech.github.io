@@ -1,8 +1,8 @@
 ---
 layout: page
 title: Evolutionary Game Theory
-description: Using Python to analyze DNA
-img: # assets/img/dna.png
+description: Distillation and implementation of a paper
+img: assets/img/evolution.jpg
 importance: 1
 category: Computational Biology
 related_publications: true

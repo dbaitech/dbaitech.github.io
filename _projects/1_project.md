@@ -1,14 +1,14 @@
 ---
 layout: page
-title: A Scalable Framework for Neuronal Networks
-description: Enables the simulation of customizable neural networks.
+title: A Scalable Framework for Neural Networks
+description: Enables the simulation of customizable neural networks
 img: assets/img/3_neurons_diagram.png
 importance: 1
 category: Computational Biology
 related_publications: true
 ---
 
-Simulating biologically accurate neuronal networks is essential for understanding complex brain functions and advancing discoveries in neuroscience. The Hodgkin-Huxley model is an incredibly meaningful tool for modelling the action potential of a single neuron. However, investigation of mammalian brain function requires a more complex version of this modelling framework.
+Simulating biologically accurate neural networks is essential for understanding complex brain functions and advancing discoveries in neuroscience. The Hodgkin-Huxley model is an incredibly meaningful tool for modelling the action potential of a single neuron. However, investigation of mammalian brain function requires a more complex version of this modelling framework.
 
 This project implements a scalable, adaptable and modular framework in Python that can be used to accurately simulate the activity of neurons in networks with distinct firing patterns and different types of coupling.
 
@@ -16,7 +16,7 @@ For an overview of the Jupyter Notebooks, please see the <a href="https://github
 
 There are two parts to this project:
 1. A reimplementation of the framework published by {% cite GIANNARI2022147 %} available in `reimplementation.ipynb`.
-2. An extension of this framework to include <b>synaptic scaling</b>. This implements the stabilization of neuronal activity that the mammalian nervous system is known to employ. This is available in `synaptic_scaling_extension.ipynb`.
+2. An extension of this framework to include <b>synaptic scaling</b>. This implements the stabilization of neural activity that the mammalian nervous system is known to employ. This is available in `synaptic_scaling_extension.ipynb`.
 
 For an in depth analysis and explanation, please see the <a href='https://github.com/dbaitech/academic-writing/blob/main/BIOL_382_Final_Report.pdf'>project report</a>.
 
@@ -24,7 +24,7 @@ Here are some example simulations:
 
 ### Reimplementation
 
-The resulting simulations from `reimplementation.ipynb` for two different neuronal motifs: feedforward and feedback excitation. Notice how only Neuron 1 receives an input current and how the type of connection to Neuron 2 can influence both of their activities.
+The resulting simulations from `reimplementation.ipynb` for two different neural motifs: feedforward and feedback excitation. Notice how only Neuron 1 receives an input current and how the type of connection to Neuron 2 can influence both of their activities.
 
 The feedforward network only sends the current from Neuron 1 to Neuron 2. However, the feedback network also has a connection back from Neuron 2 to Neuron 1 which causes its prolonged excitation.
 

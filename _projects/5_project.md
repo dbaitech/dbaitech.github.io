@@ -8,7 +8,7 @@ category: Web Dev
 related_publications: false
 ---
 
-*Still in development!* 
+*Still in development* 
 
 I'm developing a Next.js family tree template using the <a href="https://balkan.app/FamilyTreeJS">Balkan Family Tree library</a>. Designed with a clean aesthetic, it gives each family member a dedicated detail page that opens when selected.
 

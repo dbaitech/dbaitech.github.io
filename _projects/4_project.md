@@ -8,7 +8,7 @@ category: Cryptography
 related_publications: true
 ---
 
-The goal of this project was to explore the combination of **LWE-based encryption and ElGamal** to develop a more efficient Private Information Retrieval (PIR) scheme. The project involved implementing both schemes and investigating how their homomorphic properties could be combined within a PIR protocol.
+As part of my work with the <a href="https://crysp.uwaterloo.ca/">CrySP Lab</a>, the goal of this project was to explore the combination of **LWE-based encryption and ElGamal** to develop a more efficient Private Information Retrieval (PIR) scheme. The project involved implementing both schemes and investigating how their homomorphic properties could be combined within a PIR protocol.
 
 While the proposed combination did not ultimately result in a working efficient scheme, the project provided an opportunity to explore the practical implementation and limitations of these cryptographic techniques.
 
@@ -16,6 +16,7 @@ I created Python implementations of several cryptographic algorithms and protoco
 
 - SimplePIR {% cite cryptoeprint:2022/949 %}
 - ElGamal encryption, including its homomorphic properties
+- Learning-with-Errors encryption (LWE)
 - Private Information Retrieval (PIR) using Secret-key Regev encryption (LWE) and the Kushilevitz–Ostrovsky method, based on *Replication is not needed: single database, computationally-private information retrieval* {% cite Ostrovsky %}
 
 Code available at: 

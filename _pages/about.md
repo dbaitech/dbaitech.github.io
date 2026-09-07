@@ -33,4 +33,4 @@ I recently graduated from the University of Waterloo with a Bachelor’s degree 
 
 With R&D experience in the biotechnology industry at <a href='https://www.randox.com/our-vision'>Randox Laboratories</a> and <a href='https://highqtechnologies.com/about-us'>High Q Technologies</a>, I am passionate about working in interdisciplinary environments, combining computer science with the life sciences, and exploring computational methods to extract insight from complex biological data.
 
-I have also actively contributed to cryptography research projects for the <a href='https://crysp.uwaterloo.ca/'>CrySP lab</a> at the University of Waterloo and look for opportunities to apply secure computation and data privacy principles into the analysis and sharing of sensitive data.
+I have also actively contributed to cryptography research projects for the <a href='https://crysp.uwaterloo.ca/'>CrySP Lab</a> at the University of Waterloo and look for opportunities to apply secure computation and data privacy principles into the analysis and sharing of sensitive data.
